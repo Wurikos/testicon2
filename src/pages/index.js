@@ -21,6 +21,7 @@ export default (() => {
 		<Components.Iconcomp />
 		<Components.Iconcomp />
 		<Components.Iconcomp />
+		<Components.Iconcomp />
 		<Box>
 			<Icon category="md" icon={MdAnnouncement} />
 			<Icon category="md" icon={MdAnnouncement} />
