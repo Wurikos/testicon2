@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Icon, Box } from "@quarkly/widgets";
+import { Theme, Link, Icon, Box, Image } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import * as Components from "components";
@@ -19,12 +19,15 @@ export default (() => {
 		<Icon category="md" icon={MdFace} />
 		<Icon category="md" icon={MdFace} />
 		<Components.Iconcomp />
+		<Components.Iconcomp />
+		<Components.Iconcomp />
 		<Box>
 			<Icon category="md" icon={MdAnnouncement} />
 			<Icon category="md" icon={MdAnnouncement} />
 			<Icon category="md" icon={MdAnnouncement} />
 		</Box>
 		<Box />
+		<Image width="64px" height="64px" />
 		<Link
 			font={"--capture"}
 			font-size={"10px"}
