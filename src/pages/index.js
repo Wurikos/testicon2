@@ -24,6 +24,7 @@ export default (() => {
 			<Icon category="md" icon={MdAnnouncement} />
 			<Icon category="md" icon={MdAnnouncement} />
 		</Box>
+		<Box />
 		<Link
 			font={"--capture"}
 			font-size={"10px"}
